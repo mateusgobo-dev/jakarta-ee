@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: mateusgobo
+  Date: 10/03/2025
+  Time: 22:50
+-->
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:facet="http://java.sun.com/jsf/facelets"
+>
+<h:head>
+    <title>Jsf Application</title>
+    <h:outputStylesheet name="css/default.css" />
+</h:head>
+
+<facet:insert name="header_app">
+    <h:panelGroup styleClass="header-content">
+        <h:outputText value="Welcome page"/>
+    </h:panelGroup>
+</facet:insert>
+
+<h:body>
+    <facet:insert name="body_app">
+        <h:form prependId="false">
+            <h:outputText value="Body Page" styleClass="header-content"/>
+            <h:panelGroup styleClass="main-content">
+                <h:commandLink value="Cadastros" actionListener="#{navigation.to('cadastros')}"/>
+            </h:panelGroup>
+        </h:form>
+    </facet:insert>
+</h:body>
+</html>

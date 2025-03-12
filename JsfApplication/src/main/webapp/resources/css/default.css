@@ -1,0 +1,54 @@
+.header-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+    align-items: center;
+    font-family: "Choco cooky";
+    background-color: aliceblue;
+    font-size: 48px;
+}
+
+.title-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+    font-family: "Choco cooky";
+    font-size: 14px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    height: 100vh;
+    overflow: auto;
+    align-items: center;
+    font-family: "Choco cooky";
+    font-size: 12px;
+}
+
+.label-content {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    font-family: "Choco cooky";
+    font-size: 12px;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 790px;
+    text-align: left;
+    font-family: "Choco cooky";
+    font-size: 12px;
+}
